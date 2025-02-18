@@ -11,16 +11,16 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #0004ff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     width: 100%;
     max-width: 600px;
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -53,7 +53,7 @@ button:hover {
 
 p {
     font-size: 18px;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 20px;
 }
