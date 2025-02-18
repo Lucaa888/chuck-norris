@@ -2,7 +2,7 @@ document.getElementById('loadJoke').addEventListener('click', async () => {
     const category = document.getElementById('category').value;
     const url = category 
         ? https://api.chucknorris.io/jokes/random?category=${category} 
-         'https://api.chucknorris.io/jokes/random';
+        'https://api.chucknorris.io/jokes/random';
 
     try {
         const response = await fetch(url);
